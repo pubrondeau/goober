@@ -4,7 +4,7 @@ import { theme } from './theme';
 export const GlobalStyles = createGlobalStyles`
 	html,
 	body {
-		margin: 10;
+		margin: 1;
 		padding: 0;
 		display: flex;
 		flex: 1;
