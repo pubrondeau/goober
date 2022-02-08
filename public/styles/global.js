@@ -4,14 +4,14 @@ import { theme } from './theme';
 export const GlobalStyles = createGlobalStyles`
 	html,
 	body {
-		margin: 0;
+		margin: 10;
 		padding: 0;
 		display: flex;
 		flex: 1;
 		flex-direction: column;
 		flex-grow: 1;
 		height: 100%;
-		width: 90%;
+		width: 100%;
 		font: 1rem system-ui,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 		color: ${theme.colors.white};
 		background-color: ${theme.colors['gray-50']};
