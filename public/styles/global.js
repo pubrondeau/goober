@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyles`
 		flex-direction: column;
 		flex-grow: 1;
 		height: 100%;
-		width: 100%;
+		width: 90%;
 		font: 1rem system-ui,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 		color: ${theme.colors.white};
 		background-color: ${theme.colors['gray-50']};
